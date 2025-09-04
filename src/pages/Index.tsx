@@ -15,6 +15,7 @@ interface Character {
 }
 
 const characters: Character[] = [
+  // Легендарные персонажи
   {
     id: '1',
     name: 'Сайки Кусуо',
@@ -25,6 +26,17 @@ const characters: Character[] = [
     psychic: 100
   },
   {
+    id: '8',
+    name: 'Айура Микото',
+    image: '/img/37a80b56-ae66-45f0-aac0-f949c2d76103.jpg',
+    rarity: 'legendary',
+    power: 60,
+    speed: 75,
+    psychic: 95
+  },
+  
+  // Редкие персонажи
+  {
     id: '2', 
     name: 'Терухаши Кокоми',
     image: '/img/9f0e9a4b-f3d8-4c3f-9813-959e9a2b6c95.jpg',
@@ -34,6 +46,35 @@ const characters: Character[] = [
     psychic: 30
   },
   {
+    id: '5',
+    name: 'Кайдо Шун',
+    image: '/img/8d6d35e8-1cbc-44ad-a5d6-dc1ce42828da.jpg',
+    rarity: 'rare',
+    power: 65,
+    speed: 70,
+    psychic: 85
+  },
+  {
+    id: '6',
+    name: 'Кубоясу Арен',
+    image: '/img/1afb1a8a-4e91-4f52-b386-d57ada1d25cb.jpg',
+    rarity: 'rare',
+    power: 90,
+    speed: 85,
+    psychic: 20
+  },
+  {
+    id: '7',
+    name: 'Сайко Метори',
+    image: '/img/680114fc-9bae-4d08-baf4-57a76ca84e36.jpg',
+    rarity: 'rare',
+    power: 50,
+    speed: 60,
+    psychic: 40
+  },
+  
+  // Обычные персонажи
+  {
     id: '3',
     name: 'Хайро Кинеши',
     image: '/img/3c610945-c1a6-4284-843e-ce290ab2a6a2.jpg',
@@ -41,6 +82,42 @@ const characters: Character[] = [
     power: 85,
     speed: 90,
     psychic: 10
+  },
+  {
+    id: '4',
+    name: 'Нендо Рики',
+    image: '/img/3ced94f4-cfb3-4906-8ab3-a2ed6d117d86.jpg',
+    rarity: 'common',
+    power: 80,
+    speed: 50,
+    psychic: 5
+  },
+  {
+    id: '9',
+    name: 'Юмехара Чиё',
+    image: '/img/ee0a07e3-53a8-4cf7-8753-cc934f56f4b3.jpg',
+    rarity: 'common',
+    power: 45,
+    speed: 65,
+    psychic: 25
+  },
+  {
+    id: '10',
+    name: 'Мера Чисато',
+    image: '/img/06220b29-5b97-43a3-8898-11c9c5a029e9.jpg',
+    rarity: 'common',
+    power: 40,
+    speed: 95,
+    psychic: 15
+  },
+  {
+    id: '11',
+    name: 'Судзумия Хии',
+    image: '/img/b6c8d9ee-7dc8-4014-b829-96eb13c46b31.jpg',
+    rarity: 'common',
+    power: 35,
+    speed: 80,
+    psychic: 30
   }
 ];
 
